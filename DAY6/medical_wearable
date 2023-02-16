@@ -1,0 +1,7 @@
+1. Created the three threads for readtemperature, readaccelometer, and switchpress 
+2. Created two timer functions one for print the RTC data for every one second and one for print the sensor's data every 1 min.
+3. configured the external interrupts for switch and accelometer sensor.
+4. Integrated the Temperature and accelometer code with rtos.
+5. initially for every one second the time will be printed in the tera-term.
+6. when user pressed the switch then sensors data will be printed in the tera-term.
+7. for  every 1 min sensors data will be printed.
